@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Place List &mdash; All Largest Localities: Smullin Family History</title>
+<meta name="Keywords" content="Place List &mdash; All Largest Localities" />
+<meta name="Description" content="Place List &mdash; All Largest Localities: Smullin Family History" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-type" content="text/html; charset=ISO-8859-1" />
+<meta name="robots" content="noindex,nofollow" />
+<script type="text/javascript" src="net.js"></script>
+<script type="text/javascript" src="prototype.js"></script>
+<script type="text/javascript" src="scriptaculous.js"></script>
+<style type="text/css">#mnav li:hover #third, #mnav li.sfhover #third {right: 0px;}</style>
+<script type="text/javascript">
+var leftside = 0;var tnglitbox;
+var closeimg = "tng_close.gif";
+</script>
+<script type="text/javascript">var smallimage_url = 'smallimage.php?';
+var cmstngpath='';
+var loadingmsg = 'Loading...';</script>
+<style type="text/css">.media-prev {background: transparent url(media-prevbg.png) no-repeat 0 0;}</style>
+<link href="genstyle.css" rel="stylesheet" type="text/css">
+<link href="mytngstyle.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="tngrss.php">
+<!-- The Next Generation of Genealogy Sitebuilding, v.7.1.3 (10 Mar 2010), Written by Darrin Lythgoe, 2001-2013 -->
+</head>
+<body bgcolor="#FFFFFF" background="back.gif">
+
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" width="100%" style="text-align:left">
+<tr><td height="1" colspan="4" bgcolor="#999966"><img src="khaki.gif" width="20" height="1" border="0" alt=""></td></tr>
+<tr>
+	<td width="170" valign="top" bgcolor="#990000">
+		<form action="search.php" method="post">
+		<a href="searchform.php"><img src="search4.gif" alt="Search for Names" width="109" height="35" vspace="0" border="0"></a>
+		<table border="0" cellspacing="10" cellpadding="0" bgcolor="#990000">
+			<tr><td><span class="fieldname">Last Name: <br><input type="text" name="mylastname" style="width: 140px;  height: 20px; font-size: 11px;" size="14"></span></td></tr>
+			<tr><td><span class="fieldname">First Name:<br><input type="text" name="myfirstname" style="width: 140px; height: 20px; font-size: 11px;" size="14"></span></td></tr>
+			<tr><td><input type="hidden" name="mybool" value="AND"><input type="submit" name="search" value="Search" style="font-size: 10px;"> <input type="reset" value="Start Over" style="font-size: 10px;"></td></tr>
+			<tr><td>
+			<div class="fieldname">
+				<ul>
+				<li><a href="searchform.php" class="lightlink">Advanced Search</a></li>
+				<li><a href="surnames.php" class="lightlink">Surnames</a></li>
+				</ul>
+				<br><br>
+				<ul>
+				<li><a href="whatsnew.php" class="lightlink">What's New</a></li>
+				<li><a href="browsemedia.php?mediatypeID=photos" class="lightlink">Photos</a></li>
+				<li><a href="browsemedia.php?mediatypeID=histories" class="lightlink">Histories</a></li>
+				<li><a href="browsemedia.php?mediatypeID=documents" class="lightlink">Documents</a></li>
+				<li><a href="browsemedia.php?mediatypeID=videos" class="lightlink">Videos</a></li>
+				<li><a href="browsemedia.php?mediatypeID=recordings" class="lightlink">Recordings</a></li>
+				<li><a href="browsealbums.php" class="lightlink">Albums</a></li>
+				<li><a href="browsemedia.php" class="lightlink">All Media</a></li>
+				<li><a href="cemeteries.php" class="lightlink">Cemeteries</a>
+				<li><a href="browsemedia.php?mediatypeID=headstones" class="lightlink">Headstones</a>
+				<li><a href="places.php" class="lightlink">Places</a>
+				<li><a href="browsenotes.php" class="lightlink">Notes</a>
+				<li><a href="anniversaries.php" class="lightlink">Anniversaries</a></li>
+				<li><a href="reports.php" class="lightlink">Reports</a></li>
+				<li><a href="browsesources.php" class="lightlink">Sources</a></li>
+				<li><a href="browserepos.php" class="lightlink">Repositories</a></li>
+				<li><a href="browsetrees.php" class="lightlink">Statistics</a>
+				<li><a href="showlog.php" class="lightlink">Access Log</a>
+				<li><a href="changelanguage.php" class="lightlink">Change Language</a>
+				<li><a href="admin/index.php" class="lightlink">Administration</a>
+				<li><a href="suggest.php" class="lightlink">Contact Us</a>
+				<li><a href="bookmarks.php" class="lightlink">Bookmarks</a>
+				<li><a href="newacctform.php" class="lightlink">Register for <br>User Account</a>
+				</ul>
+				</div>
+			</td></tr>						
+		</table>
+		</form>
+	</td>
+	<td width="10">&nbsp;&nbsp;&nbsp;</td>
+	<td valign="top">
+		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<img src="title.gif" alt="Our Family Genealogy Pages" width="468" height="100" vspace="5" border="0" align="left">
+					
+				</td>
+				<td><img src="smallphoto.jpg" alt="" width="71" height="100" vspace="5" border="0" align="right"></td>
+			</tr>
+			<tr><td height="1" colspan="2" bgcolor="#999966"><img src="khaki.gif" width="20" height="1" border="0" alt=""></td></tr>
+			<tr>
+				<td colspan="2">
+						<div class="normal"><br>
+<ul id="mnav" style="position:relative; z-index:97; float:right;">
+<li class="drop"><a href="#"><img src="ArrowDown.gif" class="arrow" alt="" />Find</a>
+<ul id="first">
+<li><a href="surnames.php"><img src="tng_names.gif" class="tnggif" align="left" alt="" />Surnames</a></li>
+<li><a href="bookmarks.php"><img src="tng_bmk.gif" class="tnggif" align="left" alt="" />Bookmarks</a></li>
+<li><a href="places.php"><img src="tng_place.gif" class="tnggif" align="left" alt="" />Places</a></li>
+<li><a href="anniversaries.php"><img src="tng_date.gif" class="tnggif" align="left" alt="" />Dates</a></li>
+<li><a href="cemeteries.php"><img src="tng_hs.gif" class="tnggif" align="left" alt="" />Cemeteries</a></li>
+<li><a href="searchform.php"><img src="tng_search2.gif" class="tnggif" align="left" alt="" />Search</a></li>
+</ul>
+</li>
+<li class="drop"><a href="#"><img src="ArrowDown.gif" class="arrow" alt="" />Media</a>
+<ul id="second">
+<li><a href="browsemedia.php?mediatypeID=photos"><img src="tng_photo.gif" class="tnggif" align="left" alt="" />Photos</a></li>
+<li><a href="browsemedia.php?mediatypeID=documents"><img src="tng_doc.gif" class="tnggif" align="left" alt="" />Documents</a></li>
+<li><a href="browsemedia.php?mediatypeID=headstones"><img src="tng_hs.gif" class="tnggif" align="left" alt="" />Headstones</a></li>
+<li><a href="browsemedia.php?mediatypeID=histories"><img src="tng_hist.gif" class="tnggif" align="left" alt="" />Histories</a></li>
+<li><a href="browsemedia.php?mediatypeID=recordings"><img src="tng_rec.gif" class="tnggif" align="left" alt="" />Recordings</a></li>
+<li><a href="browsemedia.php?mediatypeID=videos"><img src="tng_video.gif" class="tnggif" align="left" alt="" />Videos</a></li>
+<li><a href="browsealbums.php"><img src="tng_album.gif" class="tnggif" align="left" alt="" />Albums</a></li>
+<li><a href="browsemedia.php"><img src="tng_media.gif" class="tnggif" align="left" alt="" />All Media</a></li>
+</ul>
+</li>
+<li class="drop"><a href="#"><img src="ArrowDown.gif" class="arrow" alt="" />Info</a>
+<ul id="third">
+<li><a href="whatsnew.php"><img src="tng_new.gif" class="tnggif" align="left" alt="" />What's New</a></li>
+<li><a href="mostwanted.php"><img src="tng_mw.gif" class="tnggif" align="left" alt="" />Most Wanted</a></li>
+<li><a href="reports.php"><img src="tng_rpt.gif" class="tnggif" align="left" alt="" />Reports</a></li>
+<li><a href="browsetrees.php"><img src="tng_stats.gif" class="tnggif" align="left" alt="" />Statistics</a></li>
+<li><a href="browsenotes.php"><img src="tng_note.gif" class="tnggif" align="left" alt="" />Notes</a></li>
+<li><a href="browsesources.php"><img src="tng_src.gif" class="tnggif" align="left" alt="" />Sources</a></li>
+<li><a href="browserepos.php"><img src="tng_repo.gif" class="tnggif" align="left" alt="" />Repositories</a></li>
+<li><a href="suggest.php"><img src="tng_contact.gif" class="tnggif" align="left" alt="" />Contact Us</a></li>
+</ul>
+</li>
+</ul>
+<a name="top"></a>
+<p class="header"><img src="tng_place.gif" width="20" height="20" alt="" style="vertical-align:-2px" />&nbsp;Place List: All Largest Localities<br clear="all" /></p>
+<p class="smaller" style="margin-top:0px">
+<a href="index.php" target="_self" title="Home" style="text-decoration:none"><img src="tng_home.gif" width="16" height="15" border="0" class="tngmenuicon" alt="Home"/>Home</a>&nbsp;&nbsp;&nbsp;
+<a href="searchform.php" title="Search" style="text-decoration:none"><img src="tng_search.gif" class="tngmenuicon" alt="Search"/>Search</a>&nbsp;&nbsp;&nbsp;
+<a href="javascript:newwindow=window.open('%2Fplaces-all.php%3Ftree%3DSmullin1&amp;tngprint=1','tngprint','width=850,height=600,status=no,resizable=yes,scrollbars=yes'); newwindow.focus();" onmouseover="window.status='Print';return true" onmouseout="window.status='';return true" title="Print" style="text-decoration:none"><img src="tng_print.gif" class="tngmenuicon" vspace="0" hspace="1" alt="Print"/>Print</a>&nbsp;&nbsp;&nbsp;
+<a href="login.php" title="Login - User: anonymous" style="text-decoration:none"><img src="tng_log.gif" class="tngmenuicon" alt="Login - User: anonymous"/>Login</a>&nbsp;&nbsp;&nbsp;
+<a href="#" onclick="tnglitbox = new LITBox('addbookmark.php',{width:350,height:100}); return false" onmouseover="window.status='Add Bookmark';" onmouseout="window.status='';" title="" style="text-decoration:none"><img src="tng_bmk2.gif" class="tngmenuicon" vspace="0" hspace="1" alt="Add Bookmark"/>Add Bookmark</a>
+
+</p>
+<ul class="normal">
+<li>
+<form style="margin:0px" action="places100.php" method="get">
+Show top <input type="text" name="topnum" value="100" size="4" maxlength="4" />
+ordered by occurrence <input type="hidden" name="tree" value="Smullin1" />
+<input type="submit" value="Go" />
+</form></li>
+<li><a href="places.php?tree=Smullin1">Main places page</a></li><li>
+<form style="margin:0px" action="places-oneletter.php" method="get">
+Show all places containing: <input type="text" name="psearch" />
+<input type="hidden" name="tree" value="Smullin1" />
+<input type="hidden" name="stretch" value="1" />
+<input type="submit" name="pgo" value="Go" />
+</form></li>
+</ul>
+<ul class="normal"><li>Show largest localities starting with:
+<p><a href="#char1" class="snlink">(</a>&nbsp;<a href="#char2" class="snlink">C</a>&nbsp;<a href="#char3" class="snlink">E</a>&nbsp;<a href="#char4" class="snlink">G</a>&nbsp;<a href="#char5" class="snlink">H</a>&nbsp;<a href="#char6" class="snlink">I</a>&nbsp;<a href="#char7" class="snlink">K</a>&nbsp;<a href="#char8" class="snlink">M</a>&nbsp;<a href="#char9" class="snlink">N</a>&nbsp;<a href="#char10" class="snlink">O</a>&nbsp;<a href="#char11" class="snlink">P</a>&nbsp;<a href="#char12" class="snlink">S</a>&nbsp;<a href="#char13" class="snlink">U</a>&nbsp;<a href="#char14" class="snlink">V</a></p></li></ul>
+
+<p class="normal"><b>Click on a place to show smaller localities. Click on the search icon to show matching individuals.</b></p>
+
+<A name="char1">
+<span class="header">(</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=%28age+6+months%29">(age 6 months)</a> (1) <a href="placesearch.php?tree=Smullin1&amp;psearch=%28age+6+months%29" title="Find all individuals with events at this location"><img src="tng_search_small.gif" border="0" alt="Find all individuals with events at this location" width="9" height="9" /></a><br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char2">
+<span class="header">C</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=California">California</a> (2)<br/>
+2. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Connecticut">Connecticut</a> (1)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char3">
+<span class="header">E</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Eng">Eng</a> (1)<br/>
+2. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=England">England</a> (7)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char4">
+<span class="header">G</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Georgia">Georgia</a> (1)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char5">
+<span class="header">H</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Holland">Holland</a> (1)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char6">
+<span class="header">I</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=ID">ID</a> (1)<br/>
+2. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Idaho">Idaho</a> (9)<br/>
+3. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=IFALL">IFALL</a> (1) <a href="placesearch.php?tree=Smullin1&amp;psearch=IFALL" title="Find all individuals with events at this location"><img src="tng_search_small.gif" border="0" alt="Find all individuals with events at this location" width="9" height="9" /></a><br/>
+4. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Illinois">Illinois</a> (2)<br/>
+5. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Ireland">Ireland</a> (1) <a href="placesearch.php?tree=Smullin1&amp;psearch=Ireland" title="Find all individuals with events at this location"><img src="tng_search_small.gif" border="0" alt="Find all individuals with events at this location" width="9" height="9" /></a><br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char7">
+<span class="header">K</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Kansas">Kansas</a> (6)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char8">
+<span class="header">M</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Maryland">Maryland</a> (2) <a href="placesearch.php?tree=Smullin1&amp;psearch=Maryland" title="Find all individuals with events at this location"><img src="tng_search_small.gif" border="0" alt="Find all individuals with events at this location" width="9" height="9" /></a><br/>
+2. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Minnesota">Minnesota</a> (1)<br/>
+3. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Missouri">Missouri</a> (1)<br/>
+4. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Montana">Montana</a> (1)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char9">
+<span class="header">N</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Nebraska">Nebraska</a> (2)<br/>
+2. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=New+Jersey">New Jersey</a> (1) <a href="placesearch.php?tree=Smullin1&amp;psearch=New+Jersey" title="Find all individuals with events at this location"><img src="tng_search_small.gif" border="0" alt="Find all individuals with events at this location" width="9" height="9" /></a><br/>
+3. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=New+Mexico">New Mexico</a> (1)<br/>
+4. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=New+York">New York</a> (7)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char10">
+<span class="header">O</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Oklahoma">Oklahoma</a> (2)<br/>
+2. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Oregaon">Oregaon</a> (1)<br/>
+3. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Oregon">Oregon</a> (2)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char11">
+<span class="header">P</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Pennsylvania">Pennsylvania</a> (4)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char12">
+<span class="header">S</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=SLAKE">SLAKE</a> (1) <a href="placesearch.php?tree=Smullin1&amp;psearch=SLAKE" title="Find all individuals with events at this location"><img src="tng_search_small.gif" border="0" alt="Find all individuals with events at this location" width="9" height="9" /></a><br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char13">
+<span class="header">U</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=USA">USA</a> (41)<br/>
+2. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=UT">UT</a> (1)<br/>
+3. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Utah">Utah</a> (6)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+<A name="char14">
+<span class="header">V</span></a>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td valign="top"><span class="normal">
+1. <a href="places-oneletter.php?offset=1&amp;tree=&amp;psearch=Vermont">Vermont</a> (1)<br/>
+	</span></td></tr>
+</table><br/><p class="normal"><a href="#top">Back to top</a></p><br/>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</td>
+	<td width="10">&nbsp;&nbsp;</td>
+</tr>
+<tr><td height="1" colspan="4" bgcolor="#999966"><img src="khaki.gif" width="1" height="1" border="0" alt=""></td></tr>
+</table>
+	<span class="small">
+		<br>This site powered by <a href="http://lythgoes.net/genealogy/software.php">The Next Generation of Genealogy Sitebuilding</a>, Copyright &copy; 2001-2008, created by Darrin Lythgoe, Sandy, Utah. All rights reserved.
+	</span>
+</div><br>
+<script type="text/javascript" src="litbox.js"></script>
+</body>
+</html>

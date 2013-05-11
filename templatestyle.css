@@ -1,0 +1,216 @@
+/* templatestyle.css for template 4 overrides to TNG genstyle.css   */
+
+/* header: heading text */
+.header {
+	color: #990000;
+}
+
+/* body: describes page background color and all non-table text not governed by any other style */
+/*      background-image: url(back.gif); */
+ 
+body {
+    margin-top: 8px;
+    background-image: url(back.gif); 
+}
+
+/* link: normal links, active: links in use */
+a:link, a:active {
+	color : #990000;
+}
+
+/* fieldnameback: background color for column and row title sections */
+.fieldnameback {
+	background-color: #990000;
+}
+
+/* databack: background color for data areas */
+.databack {
+	background-color: #CCCC99;
+}
+
+/* sideback: background color for side and top frames */
+.sideback {
+	background-color: #990000;
+	background-image: none;
+}
+
+/* mouseoverback: background color for admin menu items while active*/
+.mouseoverback {
+	background-color: #cc6666;
+}
+
+#mnav li { /* all list items */
+	background: #CCCC99; /*same as "databack" background color */
+	border-top:1px solid #CCCC99; /*same as "databack" background color */
+	border-left:1px solid #CCCC99; /*same as "databack" background color */
+}
+
+#mnav li ul li {
+	background: #eeeecc; /*inactive dropdown menu color*/
+}
+
+/* page: is defined to replace the bgcolor=#FFFFFF; in the top table for the page */
+.page {
+	background-color : #FFFFFF;
+	margin-top: 0px;
+	text-align:left;  /* added to replace style="text-align:left" in 6.2.0 */
+	margin-right: 0px;
+	border-collapse: collapse;
+	padding: 0px;
+	width: 100%;   /* to center, change to 900px or 90% */
+}
+
+/* line: is defined to replace the bgcolor="#999966" used with a line gif image (khaki.gif in template 4)*/
+.line {
+    background-image: url(khaki.gif);
+    height: 1px;
+    border-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    padding: 0px;
+}
+
+
+/* footer added to replace footer fonts and links */
+.footer {
+	font-size: 10px;
+	color: #000000;
+}
+
+a.footer:link  {color: #333399;} 
+a.footer:visited  {color: #333399;} 
+a.footer:hover  {
+	color: #339999;
+}
+
+/* menuback: left nav menu background color with no right and bottom border */
+.menuback {
+	background-color: #990000;
+	border-right: 0px; 
+	border-bottom: 0px;
+	width: 170px;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+#tngnav a {
+	font: 10px arial, helvetica, sans-serif;
+}
+
+/* additional styles added for XHTML 1.0 Strict validation */
+/* featureimg defined to replace width="40" height="45" border="1" hspace="8" align="left" in index.php for feature images */
+.featureimg {
+	width: 40px;
+	height: 45px;
+	margin-left: 8px;
+	margin-right: 8px;
+	float: left;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+/* emailimg added to replace width="40" height="26" border="0" align="left" hspace="8" vspace="2" for email.gif */
+.emailimg {
+	width: 40px;
+	height: 26px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	float: left;
+	border: 0px;
+}
+
+/* searchimg added to replace width="109" height="35" vspace="0" border="0" search4.gif */
+.searchimg {
+	width: 109px;
+  	height: 35px;
+  	padding: 0px;
+	border: 0px;
+}
+
+/* banner added to replace width="468" height="100" vspace="5" border="0" align="left" for title.gif */
+.banner {
+  	text-align: left;
+  	margin-top: 5px;
+	border: 0px;
+}
+
+/* smallphoto added to replace width="71" height="100" vspace="5" border="0" align="right" for smallphoto.jpg */
+
+.smallphoto {
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 0px;
+} 
+
+.imgright {
+	float: right;
+}
+
+/* emphasisyellow: added to replace <strong> for welcome message */
+.emphasisyellow {
+	font-weight: bold;
+	color: yellow;
+}
+
+/*  home page sections replaces valign="top" width="300" */
+.section {
+	width: 300px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin:10px;
+	vertical-align: top;
+}
+
+.spacercol {
+	width: 1%;
+}
+
+.content {
+	width: 100%;
+	vertical-align: top;
+}
+
+/* indexpage defined to replace bgcolor="#FFFFFF" sytle="text-align:left" "border="0" cellspacing="0" cellpadding="0" in index.php */
+.indexpage {
+	background-color : #FFFFFF;
+	margin-top: 0px;
+	text-align:left;  /* added to replace style="text-align:left" in 6.2.0 */  
+	border: 0px;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	width: 790px;    /* total width of all the columns */
+}
+
+/* bigphoto defined to replace width="300" height="172" border="0" in index.php */ 
+.bigphoto {
+	border: 0px;
+} 
+
+.snlink {
+	border-bottom:1px solid #aaa;
+	border-right:1px solid #aaa;
+	background-color:#CCCC99;
+	color:black;
+}
+
+a.snlink:hover, .snlinkact {
+	background-color:#990000;
+	color:#fff;
+}
+
+.LB_window {
+	background: #CCCC99;
+	border: 2px solid #000000;
+	color:#000000;
+}
+
+.LB_closeAjaxWindow{
+	background-color:#990000;
+}
+/* end of templatestyle.css for template 4 */

@@ -1,0 +1,68 @@
+body {
+    background-image: url(graphics/bluevelvet.gif);
+	font-family: Verdana;
+}
+div  {
+	position: absolute;
+	border-width: 0;
+	font-size: 12;
+}
+.cap {
+    left: 1px;
+	color: lightyellow;
+	font-size: 12pt;
+}
+.page {
+   top: 5%;
+   height: 95%;
+   color: tan;
+   font-size: 12pt;
+   visibility: hidden;
+}
+.book {
+	top: 5%;
+	width: 95%;
+	height: 90%;
+    background-image: url(graphics/bookpage1216.gif); 
+}
+.cover {
+   top: 5%;
+   left: 20%;
+   width: 60%;
+   height: 80%;
+   color: gold;
+   visibility: visible;
+}
+.leftarrow {
+	top: 58%;
+	left: 25px;
+	align: left;
+	z-index: 5;
+	visibility: hidden;
+}
+.rightarrow {
+	top: 50%;
+	left: 25px;
+	align: left;
+	z-index: 5;
+}
+.gopage {
+	top: 66%;
+	left: 25px;
+	z-index: 5;
+}
+.chapter {
+	top: 5%;
+	left: 5%;
+}
+img {
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+input {
+    font-size: 12pt;
+}
+p {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
