@@ -17,7 +17,7 @@
 var leftside = 0;var tnglitbox;
 var closeimg = "tng_close.gif";
 </script>
-<script type="text/javascript">var smallimage_url = 'smallimage.php?';
+<script type="text/javascript">var smallimage_url = 'smallimage.php_';
 var cmstngpath='';
 var loadingmsg = 'Loading...';</script>
 <style type="text/css">.media-prev {background: transparent url(media-prevbg.png) no-repeat 0 0;}</style>
@@ -48,15 +48,15 @@ var loadingmsg = 'Loading...';</script>
 				<br><br>
 				<ul>
 				<li><a href="whatsnew.php" class="lightlink">What's New</a></li>
-				<li><a href="browsemedia.php?mediatypeID=photos" class="lightlink">Photos</a></li>
-				<li><a href="browsemedia.php?mediatypeID=histories" class="lightlink">Histories</a></li>
-				<li><a href="browsemedia.php?mediatypeID=documents" class="lightlink">Documents</a></li>
-				<li><a href="browsemedia.php?mediatypeID=videos" class="lightlink">Videos</a></li>
-				<li><a href="browsemedia.php?mediatypeID=recordings" class="lightlink">Recordings</a></li>
+				<li><a href="browsemedia.php_mediatypeID=photos" class="lightlink">Photos</a></li>
+				<li><a href="browsemedia.php_mediatypeID=histories" class="lightlink">Histories</a></li>
+				<li><a href="browsemedia.php_mediatypeID=documents" class="lightlink">Documents</a></li>
+				<li><a href="browsemedia.php_mediatypeID=videos" class="lightlink">Videos</a></li>
+				<li><a href="browsemedia.php_mediatypeID=recordings" class="lightlink">Recordings</a></li>
 				<li><a href="browsealbums.php" class="lightlink">Albums</a></li>
 				<li><a href="browsemedia.php" class="lightlink">All Media</a></li>
 				<li><a href="cemeteries.php" class="lightlink">Cemeteries</a>
-				<li><a href="browsemedia.php?mediatypeID=headstones" class="lightlink">Headstones</a>
+				<li><a href="browsemedia.php_mediatypeID=headstones" class="lightlink">Headstones</a>
 				<li><a href="places.php" class="lightlink">Places</a>
 				<li><a href="browsenotes.php" class="lightlink">Notes</a>
 				<li><a href="anniversaries.php" class="lightlink">Anniversaries</a></li>
@@ -103,12 +103,12 @@ var loadingmsg = 'Loading...';</script>
 </li>
 <li class="drop"><a href="#"><img src="ArrowDown.gif" class="arrow" alt="" />Media</a>
 <ul id="second">
-<li><a href="browsemedia.php?mediatypeID=photos"><img src="tng_photo.gif" class="tnggif" align="left" alt="" />Photos</a></li>
-<li><a href="browsemedia.php?mediatypeID=documents"><img src="tng_doc.gif" class="tnggif" align="left" alt="" />Documents</a></li>
-<li><a href="browsemedia.php?mediatypeID=headstones"><img src="tng_hs.gif" class="tnggif" align="left" alt="" />Headstones</a></li>
-<li><a href="browsemedia.php?mediatypeID=histories"><img src="tng_hist.gif" class="tnggif" align="left" alt="" />Histories</a></li>
-<li><a href="browsemedia.php?mediatypeID=recordings"><img src="tng_rec.gif" class="tnggif" align="left" alt="" />Recordings</a></li>
-<li><a href="browsemedia.php?mediatypeID=videos"><img src="tng_video.gif" class="tnggif" align="left" alt="" />Videos</a></li>
+<li><a href="browsemedia.php_mediatypeID=photos"><img src="tng_photo.gif" class="tnggif" align="left" alt="" />Photos</a></li>
+<li><a href="browsemedia.php_mediatypeID=documents"><img src="tng_doc.gif" class="tnggif" align="left" alt="" />Documents</a></li>
+<li><a href="browsemedia.php_mediatypeID=headstones"><img src="tng_hs.gif" class="tnggif" align="left" alt="" />Headstones</a></li>
+<li><a href="browsemedia.php_mediatypeID=histories"><img src="tng_hist.gif" class="tnggif" align="left" alt="" />Histories</a></li>
+<li><a href="browsemedia.php_mediatypeID=recordings"><img src="tng_rec.gif" class="tnggif" align="left" alt="" />Recordings</a></li>
+<li><a href="browsemedia.php_mediatypeID=videos"><img src="tng_video.gif" class="tnggif" align="left" alt="" />Videos</a></li>
 <li><a href="browsealbums.php"><img src="tng_album.gif" class="tnggif" align="left" alt="" />Albums</a></li>
 <li><a href="browsemedia.php"><img src="tng_media.gif" class="tnggif" align="left" alt="" />All Media</a></li>
 </ul>
@@ -151,7 +151,7 @@ function validateForm( form ) {
 <p class="smaller" style="margin-top:0px">
 <a href="index.php" target="_self" title="Home" style="text-decoration:none"><img src="tng_home.gif" width="16" height="15" border="0" class="tngmenuicon" alt="Home"/>Home</a>&nbsp;&nbsp;&nbsp;
 <a href="searchform.php" title="Search" style="text-decoration:none"><img src="tng_search.gif" class="tngmenuicon" alt="Search"/>Search</a>&nbsp;&nbsp;&nbsp;
-<a href="javascript:newwindow=window.open('%2Fanniversaries.php?tngprint=1','tngprint','width=850,height=600,status=no,resizable=yes,scrollbars=yes'); newwindow.focus();" onmouseover="window.status='Print';return true" onmouseout="window.status='';return true" title="Print" style="text-decoration:none"><img src="tng_print.gif" class="tngmenuicon" vspace="0" hspace="1" alt="Print"/>Print</a>&nbsp;&nbsp;&nbsp;
+<a href="javascript:newwindow=window.open('%2Fanniversaries.php_tngprint=1','tngprint','width=850,height=600,status=no,resizable=yes,scrollbars=yes'); newwindow.focus();" onmouseover="window.status='Print';return true" onmouseout="window.status='';return true" title="Print" style="text-decoration:none"><img src="tng_print.gif" class="tngmenuicon" vspace="0" hspace="1" alt="Print"/>Print</a>&nbsp;&nbsp;&nbsp;
 <a href="login.php" title="Login - User: anonymous" style="text-decoration:none"><img src="tng_log.gif" class="tngmenuicon" alt="Login - User: anonymous"/>Login</a>&nbsp;&nbsp;&nbsp;
 <a href="#" onclick="tnglitbox = new LITBox('addbookmark.php',{width:350,height:100}); return false" onmouseover="window.status='Add Bookmark';" onmouseout="window.status='';" title="" style="text-decoration:none"><img src="tng_bmk2.gif" class="tngmenuicon" vspace="0" hspace="1" alt="Add Bookmark"/>Add Bookmark</a>
 
@@ -250,9 +250,9 @@ function validateForm( form ) {
 		</tr>
 
 <tr><td class="databack"><span class="normal">1</span></td>
-<td class="databack"><span class="normal"><a href="pedigree.php?personID=I148&amp;tree=Smullin1"><img src="Chart.gif" border="0" alt="" width="11" height="10"></a> <a href="getperson.php?personID=I148&amp;tree=Smullin1">PERRY, Henry</a>&nbsp;</span></td><td class="databack"><span class="normal">&nbsp;11 May 1874</span></td><td class="databack"><span class="normal">&nbsp;</span></td><td class="databack"><span class="normal">I148 </span></td><td class="databack"><span class="normal"><a href="showtree.php?tree=Smullin1">Smullin Trunk</a>&nbsp;</span></td></tr>
+<td class="databack"><span class="normal"><a href="pedigree.php_personID=I148&amp;tree=Smullin1"><img src="Chart.gif" border="0" alt="" width="11" height="10"></a> <a href="getperson.php_personID=I148&amp;tree=Smullin1">PERRY, Henry</a>&nbsp;</span></td><td class="databack"><span class="normal">&nbsp;11 May 1874</span></td><td class="databack"><span class="normal">&nbsp;</span></td><td class="databack"><span class="normal">I148 </span></td><td class="databack"><span class="normal"><a href="showtree.php_tree=Smullin1">Smullin Trunk</a>&nbsp;</span></td></tr>
 <tr><td class="databack"><span class="normal">2</span></td>
-<td class="databack"><span class="normal"><a href="pedigree.php?personID=I154&amp;tree=Smullin1"><img src="Chart.gif" border="0" alt="" width="11" height="10"></a> <a href="getperson.php?personID=I154&amp;tree=Smullin1">RIDGES, Mary Jane</a>&nbsp;</span></td><td class="databack"><span class="normal">&nbsp;11 May 1874</span></td><td class="databack"><span class="normal">&nbsp;</span></td><td class="databack"><span class="normal">I154 </span></td><td class="databack"><span class="normal"><a href="showtree.php?tree=Smullin1">Smullin Trunk</a>&nbsp;</span></td></tr>
+<td class="databack"><span class="normal"><a href="pedigree.php_personID=I154&amp;tree=Smullin1"><img src="Chart.gif" border="0" alt="" width="11" height="10"></a> <a href="getperson.php_personID=I154&amp;tree=Smullin1">RIDGES, Mary Jane</a>&nbsp;</span></td><td class="databack"><span class="normal">&nbsp;11 May 1874</span></td><td class="databack"><span class="normal">&nbsp;</span></td><td class="databack"><span class="normal">I154 </span></td><td class="databack"><span class="normal"><a href="showtree.php_tree=Smullin1">Smullin Trunk</a>&nbsp;</span></td></tr>
 	
 	</table>
 	

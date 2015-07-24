@@ -1,0 +1,550 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pedigree Chart for Hattie DAVIS: Smullin Family History</title>
+<meta name="Keywords" content="Pedigree Chart for Hattie DAVIS" />
+<meta name="Description" content="Pedigree Chart for Hattie DAVIS: Smullin Family History" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-type" content="text/html; charset=ISO-8859-1" />
+<meta name="robots" content="noindex,nofollow" />
+<script type="text/javascript" src="net.js"></script>
+<script type="text/javascript" src="prototype.js"></script>
+<script type="text/javascript" src="scriptaculous.js"></script>
+<script type="text/javascript">
+var lastpopup = '';
+var tree = 'Smullin1';
+var tnglitbox;
+var getperson_url = 'getperson.php_';
+var pedigree_url = 'pedigree.php_';
+var pedigreetext_url = 'pedigreetext.php_';
+var extrastree_url = 'extrastree.php_';
+var ahnentafel_url = 'ahnentafel.php_';
+var familygroup_url = 'familygroup.php_';
+var slotceiling = 16;
+var slotceiling_minus1 = 8;
+var display = 'standard';
+var pedcellpad = 5;
+var pedboxalign = 'center';
+var usepopups = 1;
+var popupchartlinks = 1;
+var popupkids = 1;
+var popupspouses = 1;
+var popuptimer = 500;
+var pedborderwidth = 1;
+var pedbordercolor = '#000000';
+var pedbullet = '&bull;';
+var emptycolor = '#CCCCCC';
+var hideempty = 0;
+var leftarrowimg = '<img border="0" src="ArrowLeft.gif" width="10" height="16" title="New pedigree" alt="New pedigree">';
+var namepad = '';
+var allow_add = 0;
+var cmstngpath = '';
+var chartlink = '<img src="Chart.gif" border="0" width="11" height="10" title="New pedigree" alt="New pedigree">';
+var personID = 'I70';
+var parentset = 0;
+var generations = 4;
+var tngprint = 0;
+var unknown = 'Unknown';
+var txt_parents = 'Parents';
+var txt_children = 'Children';
+var txt_family = 'Family';
+var txt_addfam = 'Add New Family';
+var txt_editfam = 'Edit Family';
+var txt_groupsheet = 'Group Sheet';
+var families = new Array(), people = new Array(); endslots = new Array(), slots = new Array();
+var endslotctr;
+var firstperson = '', topparams = '', botparams = '', toplinks = '', botlinks = '';
+var pedjsonfile = 'pedjson.php_';
+</script>
+<script src="tngpedigree.js" type="text/javascript"></script>
+<style type="text/css">
+.border { position:absolute; background-color:#000000; z-index:3; overflow:hidden}
+.shadow { position:absolute; background-color:#999999; z-index:1; overflow:hidden}
+.popup { position:absolute; visibility:hidden; background-color:#dddddd; z-index:8 }
+.pboxname { font-size:9pt; text-align:center; }
+#leftarrow { position:absolute; visibility:hidden; top:273px; left:10px;z-index:5; }
+#popleft { font-size:10pt; }
+#popabbrleft { font-size:10pt; }
+#img1 {max-width:51px; max-height:51px;}
+#img2 {max-width:49px; max-height:49px;}
+#img4 {max-width:47px; max-height:47px;}
+#img8 {max-width:45px; max-height:45px;}
+#img9 {max-width:45px; max-height:45px;}
+#img5 {max-width:47px; max-height:47px;}
+#img10 {max-width:45px; max-height:45px;}
+#img11 {max-width:45px; max-height:45px;}
+#img3 {max-width:49px; max-height:49px;}
+#img6 {max-width:47px; max-height:47px;}
+#img12 {max-width:45px; max-height:45px;}
+#img13 {max-width:45px; max-height:45px;}
+#img7 {max-width:47px; max-height:47px;}
+#img14 {max-width:45px; max-height:45px;}
+#img15 {max-width:45px; max-height:45px;}
+</style>
+<style type="text/css">#mnav li:hover #third, #mnav li.sfhover #third {right: 0px;}</style>
+<script type="text/javascript">
+var leftside = 0;var tnglitbox;
+var closeimg = "tng_close.gif";
+</script>
+<script type="text/javascript">var smallimage_url = 'smallimage.php_';
+var cmstngpath='';
+var loadingmsg = 'Loading...';</script>
+<style type="text/css">.media-prev {background: transparent url(media-prevbg.png) no-repeat 0 0;}</style>
+<link href="tngtabs1.css" rel="stylesheet" type="text/css" />
+<link href="genstyle.css" rel="stylesheet" type="text/css">
+<link href="mytngstyle.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="tngrss.php">
+<!-- The Next Generation of Genealogy Sitebuilding, v.7.1.3 (10 Mar 2010), Written by Darrin Lythgoe, 2001-2013 -->
+</head>
+<body bgcolor="#FFFFFF" background="back.gif">
+
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" width="100%" style="text-align:left">
+<tr><td height="1" colspan="4" bgcolor="#999966"><img src="khaki.gif" width="20" height="1" border="0" alt=""></td></tr>
+<tr>
+	<td width="170" valign="top" bgcolor="#990000">
+		<form action="search.php" method="post">
+		<a href="searchform.php"><img src="search4.gif" alt="Search for Names" width="109" height="35" vspace="0" border="0"></a>
+		<table border="0" cellspacing="10" cellpadding="0" bgcolor="#990000">
+			<tr><td><span class="fieldname">Last Name: <br><input type="text" name="mylastname" style="width: 140px;  height: 20px; font-size: 11px;" size="14"></span></td></tr>
+			<tr><td><span class="fieldname">First Name:<br><input type="text" name="myfirstname" style="width: 140px; height: 20px; font-size: 11px;" size="14"></span></td></tr>
+			<tr><td><input type="hidden" name="mybool" value="AND"><input type="submit" name="search" value="Search" style="font-size: 10px;"> <input type="reset" value="Start Over" style="font-size: 10px;"></td></tr>
+			<tr><td>
+			<div class="fieldname">
+				<ul>
+				<li><a href="searchform.php" class="lightlink">Advanced Search</a></li>
+				<li><a href="surnames.php" class="lightlink">Surnames</a></li>
+				</ul>
+				<br><br>
+				<ul>
+				<li><a href="whatsnew.php" class="lightlink">What's New</a></li>
+				<li><a href="browsemedia.php_mediatypeID=photos" class="lightlink">Photos</a></li>
+				<li><a href="browsemedia.php_mediatypeID=histories" class="lightlink">Histories</a></li>
+				<li><a href="browsemedia.php_mediatypeID=documents" class="lightlink">Documents</a></li>
+				<li><a href="browsemedia.php_mediatypeID=videos" class="lightlink">Videos</a></li>
+				<li><a href="browsemedia.php_mediatypeID=recordings" class="lightlink">Recordings</a></li>
+				<li><a href="browsealbums.php" class="lightlink">Albums</a></li>
+				<li><a href="browsemedia.php" class="lightlink">All Media</a></li>
+				<li><a href="cemeteries.php" class="lightlink">Cemeteries</a>
+				<li><a href="browsemedia.php_mediatypeID=headstones" class="lightlink">Headstones</a>
+				<li><a href="places.php" class="lightlink">Places</a>
+				<li><a href="browsenotes.php" class="lightlink">Notes</a>
+				<li><a href="anniversaries.php" class="lightlink">Anniversaries</a></li>
+				<li><a href="reports.php" class="lightlink">Reports</a></li>
+				<li><a href="browsesources.php" class="lightlink">Sources</a></li>
+				<li><a href="browserepos.php" class="lightlink">Repositories</a></li>
+				<li><a href="browsetrees.php" class="lightlink">Statistics</a>
+				<li><a href="showlog.php" class="lightlink">Access Log</a>
+				<li><a href="changelanguage.php" class="lightlink">Change Language</a>
+				<li><a href="admin/index.php" class="lightlink">Administration</a>
+				<li><a href="suggest.php" class="lightlink">Contact Us</a>
+				<li><a href="bookmarks.php" class="lightlink">Bookmarks</a>
+				<li><a href="newacctform.php" class="lightlink">Register for <br>User Account</a>
+				</ul>
+				</div>
+			</td></tr>						
+		</table>
+		</form>
+	</td>
+	<td width="10">&nbsp;&nbsp;&nbsp;</td>
+	<td valign="top">
+		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<img src="title.gif" alt="Our Family Genealogy Pages" width="468" height="100" vspace="5" border="0" align="left">
+					
+				</td>
+				<td><img src="smallphoto.jpg" alt="" width="71" height="100" vspace="5" border="0" align="right"></td>
+			</tr>
+			<tr><td height="1" colspan="2" bgcolor="#999966"><img src="khaki.gif" width="20" height="1" border="0" alt=""></td></tr>
+			<tr>
+				<td colspan="2">
+						<div class="normal"><br>
+<ul id="mnav" style="position:relative; z-index:97; float:right;">
+<li class="drop"><a href="#"><img src="ArrowDown.gif" class="arrow" alt="" />Find</a>
+<ul id="first">
+<li><a href="surnames.php"><img src="tng_names.gif" class="tnggif" align="left" alt="" />Surnames</a></li>
+<li><a href="bookmarks.php"><img src="tng_bmk.gif" class="tnggif" align="left" alt="" />Bookmarks</a></li>
+<li><a href="places.php"><img src="tng_place.gif" class="tnggif" align="left" alt="" />Places</a></li>
+<li><a href="anniversaries.php"><img src="tng_date.gif" class="tnggif" align="left" alt="" />Dates</a></li>
+<li><a href="cemeteries.php"><img src="tng_hs.gif" class="tnggif" align="left" alt="" />Cemeteries</a></li>
+<li><a href="searchform.php"><img src="tng_search2.gif" class="tnggif" align="left" alt="" />Search</a></li>
+</ul>
+</li>
+<li class="drop"><a href="#"><img src="ArrowDown.gif" class="arrow" alt="" />Media</a>
+<ul id="second">
+<li><a href="browsemedia.php_mediatypeID=photos"><img src="tng_photo.gif" class="tnggif" align="left" alt="" />Photos</a></li>
+<li><a href="browsemedia.php_mediatypeID=documents"><img src="tng_doc.gif" class="tnggif" align="left" alt="" />Documents</a></li>
+<li><a href="browsemedia.php_mediatypeID=headstones"><img src="tng_hs.gif" class="tnggif" align="left" alt="" />Headstones</a></li>
+<li><a href="browsemedia.php_mediatypeID=histories"><img src="tng_hist.gif" class="tnggif" align="left" alt="" />Histories</a></li>
+<li><a href="browsemedia.php_mediatypeID=recordings"><img src="tng_rec.gif" class="tnggif" align="left" alt="" />Recordings</a></li>
+<li><a href="browsemedia.php_mediatypeID=videos"><img src="tng_video.gif" class="tnggif" align="left" alt="" />Videos</a></li>
+<li><a href="browsealbums.php"><img src="tng_album.gif" class="tnggif" align="left" alt="" />Albums</a></li>
+<li><a href="browsemedia.php"><img src="tng_media.gif" class="tnggif" align="left" alt="" />All Media</a></li>
+</ul>
+</li>
+<li class="drop"><a href="#"><img src="ArrowDown.gif" class="arrow" alt="" />Info</a>
+<ul id="third">
+<li><a href="whatsnew.php"><img src="tng_new.gif" class="tnggif" align="left" alt="" />What's New</a></li>
+<li><a href="mostwanted.php"><img src="tng_mw.gif" class="tnggif" align="left" alt="" />Most Wanted</a></li>
+<li><a href="reports.php"><img src="tng_rpt.gif" class="tnggif" align="left" alt="" />Reports</a></li>
+<li><a href="browsetrees.php"><img src="tng_stats.gif" class="tnggif" align="left" alt="" />Statistics</a></li>
+<li><a href="browsenotes.php"><img src="tng_note.gif" class="tnggif" align="left" alt="" />Notes</a></li>
+<li><a href="browsesources.php"><img src="tng_src.gif" class="tnggif" align="left" alt="" />Sources</a></li>
+<li><a href="browserepos.php"><img src="tng_repo.gif" class="tnggif" align="left" alt="" />Repositories</a></li>
+<li><a href="suggest.php"><img src="tng_contact.gif" class="tnggif" align="left" alt="" />Contact Us</a></li>
+</ul>
+</li>
+</ul>
+<span class="header">Hattie DAVIS</span><br /><span class="normal"><img src="tng_female.gif" width="11" height="11" border="0" alt="Female" style="vertical-align: -1px;"/>&nbsp;1933 - 1933</span><br />
+<br clear="all" />
+<p class="smaller" style="margin-top:0px">
+<a href="index.php" target="_self" title="Home" style="text-decoration:none"><img src="tng_home.gif" width="16" height="15" border="0" class="tngmenuicon" alt="Home"/>Home</a>&nbsp;&nbsp;&nbsp;
+<a href="searchform.php" title="Search" style="text-decoration:none"><img src="tng_search.gif" class="tngmenuicon" alt="Search"/>Search</a>&nbsp;&nbsp;&nbsp;
+<a href="javascript:newwindow=window.open('%2Fpedigree.php%3FpersonID%3DI70%26tree%3DSmullin1&amp;tngprint=1','tngprint','width=850,height=600,status=no,resizable=yes,scrollbars=yes'); newwindow.focus();" onmouseover="window.status='Print';return true" onmouseout="window.status='';return true" title="Print" style="text-decoration:none"><img src="tng_print.gif" class="tngmenuicon" vspace="0" hspace="1" alt="Print"/>Print</a>&nbsp;&nbsp;&nbsp;
+<a href="login.php" title="Login - User: anonymous" style="text-decoration:none"><img src="tng_log.gif" class="tngmenuicon" alt="Login - User: anonymous"/>Login</a>&nbsp;&nbsp;&nbsp;
+<a href="#" onclick="tnglitbox = new LITBox('addbookmark.php',{width:350,height:100}); return false" onmouseover="window.status='Add Bookmark';" onmouseout="window.status='';" title="" style="text-decoration:none"><img src="tng_bmk2.gif" class="tngmenuicon" vspace="0" hspace="1" alt="Add Bookmark"/>Add Bookmark</a>
+
+</p>
+<form style="margin:0px" action="pedigree.php" name="form1" id="form1">
+<div style="width:100%;overflow:hidden">
+<ul id="tngnav">
+<li><a id="a0" href="getperson.php_personID=I70&amp;tree=Smullin1"><img src="tng_ind.gif" width="16" height="15" border="0" alt="" class="tngmenuicon"/>Individual</a></li>
+<li><a id="a1" href="pedigree.php_personID=I70&amp;tree=Smullin1" class="here"><img src="tng_ped.gif" width="16" height="15" border="0" alt="" class="tngmenuicon"/>Ancestors</a></li>
+<li><a id="a2" href="descend.php_personID=I70&amp;tree=Smullin1"><img src="tng_desc.gif" width="16" height="15" border="0" alt="" class="tngmenuicon"/>Descendants</a></li>
+<li><a id="a3" href="relateform.php_primaryID=I70&amp;tree=Smullin1"><img src="tng_rel.gif" width="16" height="15" border="0" alt="" class="tngmenuicon"/>Relationship</a></li>
+<li><a id="a4" href="timeline.php_primaryID=I70&amp;tree=Smullin1"><img src="tng_time.gif" width="16" height="15" border="0" alt="" class="tngmenuicon"/>Timeline</a></li>
+<li><a id="a5" href="gedform.php_personID=I70&amp;tree=Smullin1"><img src="tng_ged.gif" width="16" height="15" border="0" alt="" class="tngmenuicon"/>GEDCOM</a></li>
+<li><a id="a6" href="suggest.php_enttype=I&amp;ID=I70&amp;tree=Smullin1"><img src="tng_edit.gif" width="16" height="15" border="0" alt="" class="tngmenuicon"/>Suggest</a></li>
+</ul>
+</div>
+<div class="fieldnameback fieldname smaller" style="margin:0px 1px 0px 1px;clear:both; padding: 0.3em 0em 0.3em .7em; border-right: 1px solid #777; border-bottom: 1px solid #777;">
+Generations: &nbsp;<select name="generations" style="font-size:9px" onChange="window.location.href='pedigree.php_personID=' + firstperson + '&amp;tree=Smullin1&amp;parentset=0&amp;display=standard&amp;generations=' + this.options[this.selectedIndex].value">
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4" selected>4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+</select>&nbsp;&nbsp;&nbsp;
+<a href="pedigree.php_personID=I70&amp;tree=Smullin1&amp;parentset=0&amp;display=standard&amp;generations=4" class="lightlink3" id="stdpedlnk">Standard</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+<a href="pedigree.php_personID=I70&amp;tree=Smullin1&amp;parentset=0&amp;display=compact&amp;generations=4" class="lightlink" id="compedlnk">Compact</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+<a href="pedigree.php_personID=I70&amp;tree=Smullin1&amp;parentset=0&amp;display=box&amp;generations=4" class="lightlink" id="boxpedlnk">Box</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+<a href="pedigreetext.php_personID=I70&amp;tree=Smullin1&amp;parentset=0&amp;generations=4" class="lightlink" id="textlnk">Text</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+<a href="ahnentafel.php_personID=I70&amp;tree=Smullin1&amp;parentset=0&amp;generations=4" class="lightlink" id="ahnlnk">Ahnentafel</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+<a href="extrastree.php_personID=I70&amp;tree=Smullin1&amp;parentset=0&amp;showall=1&amp;generations=4" class="lightlink" id="extralnk">Media</a>
+ &nbsp;&nbsp; | &nbsp;&nbsp; <a href="#" class="lightlink" onclick="tnglitbox = new LITBox('pdfform.php_pdftype=ped&personID=' + firstperson + '&tree=Smullin1&generations=4',{width:350,height:350});return false;">PDF</a>
+</div><br/>
+</form>
+<span class="normal">(Notes: You may have to scroll down or right to see chart. <img src="ArrowDown.gif" width="25" height="8" alt="">Additional information&nbsp;&nbsp;<img src="Chart.gif" border="0" width="11" height="10" title="New pedigree" alt="New pedigree"> &nbsp; New pedigree)</span><div id="loading" style="position:relative; width=200px; visibility:visible; z-index=9; margin:0px"><br /><span class="normal"><b>Loading...</b></span></div>
+<div align="left" style="position:relative;" id="outer">
+
+<!-- box for slot 1 -->
+<div id="leftarrow">
+</div>
+<div class="popup" id="popupleft" style="top:273px; left:11px;" onmouseover="cancelTimer('left')" onmouseout="setTimer('left')">
+</div>
+<div id="box1" class="pedbox rounded10" style="background-color:#cccc99; top:249px; left:26px; height:61px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow1" onmouseover="showPopup(1, 250,61)" style="width:151px; text-align:center; top:317px;left:26px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup1" style="left:28px;" onmouseover="cancelTimer(1)" onmouseout="setTimer(1)">
+</div>
+
+<!-- box outline and shadow for slot 1 -->
+<div class="shadow rounded10" id="shadow1_1" style="top:253px; left:30px; height:63px; width:153px;"></div>
+<div class="border" id="border1_3" style="top:280px; left:178px; height:1px; width:16px;"></div>
+<div class="shadow" id="shadow1_3" style="top:285px; left:183px; height:1px; width:16px;"></div>
+
+<!-- box for slot 2 -->
+<div id="box2" class="pedbox rounded10" style="background-color:#e4e4b1; top:106px; left:208px; height:59px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow2" onmouseover="showPopup(2, 107,59)" style="width:151px; text-align:center; top:172px;left:208px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup2" style="left:210px;" onmouseover="cancelTimer(2)" onmouseout="setTimer(2)">
+</div>
+
+<!-- box outline and shadow for slot 2 -->
+<div class="shadow rounded10" id="shadow2_1" style="top:110px; left:212px; height:61px; width:153px;"></div>
+<div class="border" id="border2_2" style="top:136px; left:194px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow2_2" style="top:141px;left:199px; height:1px; width:17px;"></div>
+<div class="border" id="border2_3" style="top:136px; left:360px; height:1px; width:16px;"></div>
+<div class="shadow" id="shadow2_3" style="top:141px; left:365px; height:1px; width:16px;"></div>
+<div class="border" id="border2_4" style="top:136px; left:194px; height:145px; width:1px;"></div>
+<div class="shadow" id="shadow2_4" style="top:141px; left:199px; height:145px; width:1px;"></div>
+
+<!-- box for slot 4 -->
+<div id="box4" class="pedbox rounded10" style="background-color:#fcfcc9; top:35px; left:390px; height:57px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow4" onmouseover="showPopup(4, 36,57)" style="width:151px; text-align:center; top:99px;left:390px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup4" style="left:392px;" onmouseover="cancelTimer(4)" onmouseout="setTimer(4)">
+</div>
+
+<!-- box outline and shadow for slot 4 -->
+<div class="shadow rounded10" id="shadow4_1" style="top:39px; left:394px; height:59px; width:153px;"></div>
+<div class="border" id="border4_2" style="top:64px; left:376px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow4_2" style="top:69px;left:381px; height:1px; width:17px;"></div>
+<div class="border" id="border4_3" style="top:64px; left:542px; height:1px; width:16px;"></div>
+<div class="shadow" id="shadow4_3" style="top:69px; left:547px; height:1px; width:16px;"></div>
+<div class="border" id="border4_4" style="top:64px; left:376px; height:73px; width:1px;"></div>
+<div class="shadow" id="shadow4_4" style="top:69px; left:381px; height:73px; width:1px;"></div>
+
+<!-- box for slot 8 -->
+<div id="box8" class="pedbox rounded10" style="background-color:#ffffe1; top:0px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow8" onmouseover="showPopup(8, 1,55)" style="width:151px; text-align:center; top:62px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup8" style="left:574px;" onmouseover="cancelTimer(8)" onmouseout="setTimer(8)">
+</div>
+
+<!-- box outline and shadow for slot 8 -->
+<div class="shadow rounded10" id="shadow8_1" style="top:4px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border8_2" style="top:28px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow8_2" style="top:33px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border8_4" style="top:28px; left:558px; height:37px; width:1px;"></div>
+<div class="shadow" id="shadow8_4" style="top:33px; left:563px; height:37px; width:1px;"></div>
+<div class="offpagearrow" id="offpage8" style="top:21px; left:732px;"><a href="javascript:getNewFamilies(topparams,1,'M');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<!-- box for slot 9 -->
+<div id="box9" class="pedbox rounded10" style="background-color:#ffffe1; top:72px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow9" onmouseover="showPopup(9, 73,55)" style="width:151px; text-align:center; top:134px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup9" style="left:574px;" onmouseover="cancelTimer(9)" onmouseout="setTimer(9)">
+</div>
+
+<!-- box outline and shadow for slot 9 -->
+<div class="shadow rounded10" id="shadow9_1" style="top:76px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border9_2" style="top:100px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow9_2" style="top:105px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border9_5" style="top:65px; left:558px; height:36px; width:1px;"></div>
+<div class="shadow" id="shadow9_5" style="top:70px; left:563px; height:36px; width:1px;"></div>
+<div class="offpagearrow" id="offpage9" style="top:93px; left:732px;"><a href="javascript:getNewFamilies(topparams,1,'M');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<!-- box for slot 5 -->
+<div id="box5" class="pedbox rounded10" style="background-color:#fcfcc9; top:179px; left:390px; height:57px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow5" onmouseover="showPopup(5, 180,57)" style="width:151px; text-align:center; top:243px;left:390px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup5" style="left:392px;" onmouseover="cancelTimer(5)" onmouseout="setTimer(5)">
+</div>
+
+<!-- box outline and shadow for slot 5 -->
+<div class="shadow rounded10" id="shadow5_1" style="top:183px; left:394px; height:59px; width:153px;"></div>
+<div class="border" id="border5_2" style="top:208px; left:376px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow5_2" style="top:213px;left:381px; height:1px; width:17px;"></div>
+<div class="border" id="border5_3" style="top:208px; left:542px; height:1px; width:16px;"></div>
+<div class="shadow" id="shadow5_3" style="top:213px; left:547px; height:1px; width:16px;"></div>
+<div class="border" id="border5_5" style="top:137px; left:376px; height:72px; width:1px;"></div>
+<div class="shadow" id="shadow5_5" style="top:142px; left:381px; height:72px; width:1px;"></div>
+
+<!-- box for slot 10 -->
+<div id="box10" class="pedbox rounded10" style="background-color:#ffffe1; top:144px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow10" onmouseover="showPopup(10, 145,55)" style="width:151px; text-align:center; top:206px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup10" style="left:574px;" onmouseover="cancelTimer(10)" onmouseout="setTimer(10)">
+</div>
+
+<!-- box outline and shadow for slot 10 -->
+<div class="shadow rounded10" id="shadow10_1" style="top:148px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border10_2" style="top:172px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow10_2" style="top:177px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border10_4" style="top:172px; left:558px; height:37px; width:1px;"></div>
+<div class="shadow" id="shadow10_4" style="top:177px; left:563px; height:37px; width:1px;"></div>
+<div class="offpagearrow" id="offpage10" style="top:165px; left:732px;"><a href="javascript:getNewFamilies(topparams,1,'M');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<!-- box for slot 11 -->
+<div id="box11" class="pedbox rounded10" style="background-color:#ffffe1; top:216px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow11" onmouseover="showPopup(11, 217,55)" style="width:151px; text-align:center; top:278px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup11" style="left:574px;" onmouseover="cancelTimer(11)" onmouseout="setTimer(11)">
+</div>
+
+<!-- box outline and shadow for slot 11 -->
+<div class="shadow rounded10" id="shadow11_1" style="top:220px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border11_2" style="top:244px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow11_2" style="top:249px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border11_5" style="top:209px; left:558px; height:36px; width:1px;"></div>
+<div class="shadow" id="shadow11_5" style="top:214px; left:563px; height:36px; width:1px;"></div>
+<div class="offpagearrow" id="offpage11" style="top:237px; left:732px;"><a href="javascript:getNewFamilies(topparams,1,'M');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<!-- box for slot 3 -->
+<div id="box3" class="pedbox rounded10" style="background-color:#e4e4b1; top:394px; left:208px; height:59px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow3" onmouseover="showPopup(3, 395,59)" style="width:151px; text-align:center; top:460px;left:208px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup3" style="left:210px;" onmouseover="cancelTimer(3)" onmouseout="setTimer(3)">
+</div>
+
+<!-- box outline and shadow for slot 3 -->
+<div class="shadow rounded10" id="shadow3_1" style="top:398px; left:212px; height:61px; width:153px;"></div>
+<div class="border" id="border3_2" style="top:424px; left:194px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow3_2" style="top:429px;left:199px; height:1px; width:17px;"></div>
+<div class="border" id="border3_3" style="top:424px; left:360px; height:1px; width:16px;"></div>
+<div class="shadow" id="shadow3_3" style="top:429px; left:365px; height:1px; width:16px;"></div>
+<div class="border" id="border3_5" style="top:281px; left:194px; height:144px; width:1px;"></div>
+<div class="shadow" id="shadow3_5" style="top:286px; left:199px; height:144px; width:1px;"></div>
+
+<!-- box for slot 6 -->
+<div id="box6" class="pedbox rounded10" style="background-color:#fcfcc9; top:323px; left:390px; height:57px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow6" onmouseover="showPopup(6, 324,57)" style="width:151px; text-align:center; top:387px;left:390px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup6" style="left:392px;" onmouseover="cancelTimer(6)" onmouseout="setTimer(6)">
+</div>
+
+<!-- box outline and shadow for slot 6 -->
+<div class="shadow rounded10" id="shadow6_1" style="top:327px; left:394px; height:59px; width:153px;"></div>
+<div class="border" id="border6_2" style="top:352px; left:376px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow6_2" style="top:357px;left:381px; height:1px; width:17px;"></div>
+<div class="border" id="border6_3" style="top:352px; left:542px; height:1px; width:16px;"></div>
+<div class="shadow" id="shadow6_3" style="top:357px; left:547px; height:1px; width:16px;"></div>
+<div class="border" id="border6_4" style="top:352px; left:376px; height:73px; width:1px;"></div>
+<div class="shadow" id="shadow6_4" style="top:357px; left:381px; height:73px; width:1px;"></div>
+
+<!-- box for slot 12 -->
+<div id="box12" class="pedbox rounded10" style="background-color:#ffffe1; top:288px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow12" onmouseover="showPopup(12, 289,55)" style="width:151px; text-align:center; top:350px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup12" style="left:574px;" onmouseover="cancelTimer(12)" onmouseout="setTimer(12)">
+</div>
+
+<!-- box outline and shadow for slot 12 -->
+<div class="shadow rounded10" id="shadow12_1" style="top:292px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border12_2" style="top:316px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow12_2" style="top:321px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border12_4" style="top:316px; left:558px; height:37px; width:1px;"></div>
+<div class="shadow" id="shadow12_4" style="top:321px; left:563px; height:37px; width:1px;"></div>
+<div class="offpagearrow" id="offpage12" style="top:309px; left:732px;"><a href="javascript:getNewFamilies(botparams,1,'F');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<!-- box for slot 13 -->
+<div id="box13" class="pedbox rounded10" style="background-color:#ffffe1; top:360px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow13" onmouseover="showPopup(13, 361,55)" style="width:151px; text-align:center; top:422px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup13" style="left:574px;" onmouseover="cancelTimer(13)" onmouseout="setTimer(13)">
+</div>
+
+<!-- box outline and shadow for slot 13 -->
+<div class="shadow rounded10" id="shadow13_1" style="top:364px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border13_2" style="top:388px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow13_2" style="top:393px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border13_5" style="top:353px; left:558px; height:36px; width:1px;"></div>
+<div class="shadow" id="shadow13_5" style="top:358px; left:563px; height:36px; width:1px;"></div>
+<div class="offpagearrow" id="offpage13" style="top:381px; left:732px;"><a href="javascript:getNewFamilies(botparams,1,'F');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<!-- box for slot 7 -->
+<div id="box7" class="pedbox rounded10" style="background-color:#fcfcc9; top:467px; left:390px; height:57px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow7" onmouseover="showPopup(7, 468,57)" style="width:151px; text-align:center; top:531px;left:390px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup7" style="left:392px;" onmouseover="cancelTimer(7)" onmouseout="setTimer(7)">
+</div>
+
+<!-- box outline and shadow for slot 7 -->
+<div class="shadow rounded10" id="shadow7_1" style="top:471px; left:394px; height:59px; width:153px;"></div>
+<div class="border" id="border7_2" style="top:496px; left:376px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow7_2" style="top:501px;left:381px; height:1px; width:17px;"></div>
+<div class="border" id="border7_3" style="top:496px; left:542px; height:1px; width:16px;"></div>
+<div class="shadow" id="shadow7_3" style="top:501px; left:547px; height:1px; width:16px;"></div>
+<div class="border" id="border7_5" style="top:425px; left:376px; height:72px; width:1px;"></div>
+<div class="shadow" id="shadow7_5" style="top:430px; left:381px; height:72px; width:1px;"></div>
+
+<!-- box for slot 14 -->
+<div id="box14" class="pedbox rounded10" style="background-color:#ffffe1; top:432px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow14" onmouseover="showPopup(14, 433,55)" style="width:151px; text-align:center; top:494px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup14" style="left:574px;" onmouseover="cancelTimer(14)" onmouseout="setTimer(14)">
+</div>
+
+<!-- box outline and shadow for slot 14 -->
+<div class="shadow rounded10" id="shadow14_1" style="top:436px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border14_2" style="top:460px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow14_2" style="top:465px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border14_4" style="top:460px; left:558px; height:37px; width:1px;"></div>
+<div class="shadow" id="shadow14_4" style="top:465px; left:563px; height:37px; width:1px;"></div>
+<div class="offpagearrow" id="offpage14" style="top:453px; left:732px;"><a href="javascript:getNewFamilies(botparams,1,'F');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<!-- box for slot 15 -->
+<div id="box15" class="pedbox rounded10" style="background-color:#ffffe1; top:504px; left:572px; height:55px; width:151px; border:1px solid #000000;"></div>
+
+<!-- popup for  -->
+
+<div class="downarrow" id="downarrow15" onmouseover="showPopup(15, 505,55)" style="width:151px; text-align:center; top:566px;left:572px;">
+<img src="ArrowDown.gif" border="0" width="25" height="8"  alt=""></div>
+<div class="popup" id="popup15" style="left:574px;" onmouseover="cancelTimer(15)" onmouseout="setTimer(15)">
+</div>
+
+<!-- box outline and shadow for slot 15 -->
+<div class="shadow rounded10" id="shadow15_1" style="top:508px; left:576px; height:57px; width:153px;"></div>
+<div class="border" id="border15_2" style="top:532px; left:558px; height:1px; width:17px;"></div>
+<div class="shadow" id="shadow15_2" style="top:537px;left:563px; height:1px; width:17px;"></div>
+<div class="border" id="border15_5" style="top:497px; left:558px; height:36px; width:1px;"></div>
+<div class="shadow" id="shadow15_5" style="top:502px; left:563px; height:36px; width:1px;"></div>
+<div class="offpagearrow" id="offpage15" style="top:525px; left:732px;"><a href="javascript:getNewFamilies(botparams,1,'F');"><img border="0" src="ArrowRight.gif" width="10" height="16" title="New pedigree" alt="New pedigree"></a></div>
+
+<table border="0" cellspacing="0" cellpadding="0" width="742" style="height: 584px;">
+<tr><td></td></tr></table>
+
+</div>
+<script type="text/javascript" src="rpt_utils.js"></script>
+<script type="text/javascript">
+for( var c = 1; c < slotceiling; c++ ) {
+	var slot = document.getElementById('box'+c);
+	slot.oldcolor = slot.style.backgroundColor;
+}
+getNewChart(personID,generations,parentset);
+new Effect.ScrollTo('box1',{offset:-200});
+</script>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</td>
+	<td width="10">&nbsp;&nbsp;</td>
+</tr>
+<tr><td height="1" colspan="4" bgcolor="#999966"><img src="khaki.gif" width="1" height="1" border="0" alt=""></td></tr>
+</table>
+	<span class="small">
+		<br>This site powered by <a href="http://lythgoes.net/genealogy/software.php">The Next Generation of Genealogy Sitebuilding</a>, Copyright &copy; 2001-2008, created by Darrin Lythgoe, Sandy, Utah. All rights reserved.
+	</span>
+</div><br>
+<script type="text/javascript" src="litbox.js"></script>
+</body>
+</html>
